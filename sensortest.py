@@ -1,7 +1,8 @@
 # Simple demo of reading color data with the TCS34725 sensor.
 # Will read the color from the sensor and print it out along with lux and
 # color temperature.
-# Author: Tony DiCola
+#
+# Derived from Adafruit simpletest.py, originally written by Tony DiCola.
 # License: Public Domain
 
 import argparse
