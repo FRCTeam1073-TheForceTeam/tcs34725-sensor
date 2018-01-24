@@ -21,7 +21,7 @@ Python code to use the Adafruit TCS34725 color sensor with a Raspberry Pi
     $ sudo raspi-config
 
 ### Run the sensortest.py utility as follows.
-    python sensortest.py --help
+    $ python sensortest.py --help
     
     usage: sensortest.py [-h] [-i INTEGRATION_TIME] [-g GAIN] [-l LED_CTRL_PIN]
                          [-d] [-t TIME_INTERVAL]
