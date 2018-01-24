@@ -9,9 +9,10 @@ Python code to use the Adafruit TCS34725 color sensor with a Raspberry Pi
 ### Install Adafruit TCS34725 driver library
     $ sudo pip install adafruit-tcs34725
 
-### Alternatively, you may want to clone the Adafruit source tree from here:
+    #Alternatively, you may want to clone the Adafruit source tree from here:
     git clone https://github.com/adafruit/Adafruit_Python_TCS34725.git
 
+### Enable the I2C interface on the Raspberry Pi
     IMPORTANT: You must also enable the I2C interface on the Raspberry Pi, as it 
                is disabled by default. This is done via the 'raspi-config' utility.
                Launch the utility, select 'Interfacing Options', then I2C, and then 
